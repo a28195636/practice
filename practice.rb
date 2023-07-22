@@ -1,5 +1,4 @@
-hello = "Hello, "
-name = "Suzuki"
-world = "'s World!"
+omusubi_tech = "omusubi"
+omusubi_tech << " tech"
 
-puts hello + name + world
+puts omusubi_tech
