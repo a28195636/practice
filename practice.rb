@@ -1,6 +1,6 @@
-def nibai(i)
-  i *= 2
-  puts i
+def goukei(a,b)
+  sum = a + b
+  puts sum
 end
 
-nibai(2)
+goukei(2,3)
