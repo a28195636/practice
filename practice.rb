@@ -1,7 +1,7 @@
-name = "Suzuki"
+sum = 0
 
-if name == "suzuki"
-  puts "私は " + name + " です"  
-else
-  puts name + "ではありません"
-end
+for i in 1..10000 do
+  sum += i
+end 
+
+puts sum
