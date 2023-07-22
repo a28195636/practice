@@ -1,7 +1,5 @@
-sum = 0
+fruits = ["りんご","みかん","ぶどう","バナナ","パイナップル"]
 
-for i in 1..10000 do
-  sum += i
-end 
-
-puts sum
+fruits.each do |fruits|
+  puts fruits
+end
