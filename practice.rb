@@ -1,6 +1,11 @@
-def goukei(a,b)
-  sum = a + b
-  puts sum
+arr = [1, 3, 5 ,7, 9]
+
+def kakezan(arr)
+  result = 1
+  arr.each do |arr|
+  result *= arr
+  end
+  puts result
 end
 
-goukei(2,3)
+kakezan(arr)
